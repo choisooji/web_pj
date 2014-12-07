@@ -1,0 +1,127 @@
+html, body {
+	width: 99.8%;
+	height: 100%;
+	font-family: '¸¼Àº °íµñ', ±¼¸², µ¸¿ò, AppleGothic, sans-serif;
+	margin: 0 0 0 0;
+}
+
+body {
+	/* body's 'height' is super-important value.
+	 * this vluae must be specified.
+	 * if you don't, all of div's height cannot be setted.
+	 *
+	 * Note that 'height' will be setted by jQuery
+	 * This '900px' is just default value for Old browser */
+	background: #a7a7a7;
+	text-align: center;
+}
+
+.login {
+	/* 'DO NOT' change this */
+	position: absolute;
+	top: 1%;
+	right: 5%;
+}
+
+div.main {
+	position: absolute;
+	top: 8%;
+	width: 100%;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+	font-size: 40px;
+}
+
+.main a:visited {
+	text-decoration: none;
+}
+
+.main a:link {
+	text-decoration: none;
+}
+
+div#content {
+	position: absolute;
+	top: 20%;
+	left: 15%;
+	width: 65%;
+	height: 70%;
+	margin: 0 auto;
+	background-color: #fff;
+	-webkit-border-radius: 80px;
+	-moz-border-radius: 80px;
+	border-radius: 80px;
+}
+
+div#left {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 20%;
+	height: 100%;
+	color: #fff;
+	background-color: #a828a8;
+	-webkit-border-top-left-radius: 79px;
+	-webkit-border-bottom-left-radius: 79px;
+	-moz-border-radius-topleft: 79px;
+	-moz-border-radius-bottomleft: 79px;
+	border-top-left-radius: 79px;
+	border-bottom-left-radius: 79px;
+}
+
+div#left div {
+	margin: 20% 0 0 0;
+	font-size: 18px;
+}
+
+div#left div a:hover {
+	transition: all ease 0.5s;
+	width: 80px;
+	height: 20px;
+	background: #C69;
+}
+
+div#left div a:link {
+	text-decoration: none;
+	color: #fff;
+}
+
+div#left div a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+div#right {
+	position: absolute;
+	top: 0%;
+	left: 30%;
+	height: 100%;
+	width: 75%;
+	background-color: #fff;
+	-webkit-border-top-right-radius: 80px;
+	-webkit-border-bottom-right-radius: 80px;
+	-moz-border-radius-topright: 80px;
+	-moz-border-radius-bottomright: 80px;
+	border-top-right-radius: 80px;
+	border-bottom-right-radius: 80px;
+}
+
+#title {
+	background-color: red;
+	text-align: left;
+}
+
+div#right span {
+	
+}
+
+div#footer {
+	position: absolute;
+	top: 90%;
+	width: 100%;
+	text-align: center;
+}
+
+#right table {
+	
+}
